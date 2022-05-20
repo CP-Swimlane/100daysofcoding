@@ -15,21 +15,21 @@ pw_straight = []
 run_count = 0
 
 while run_count != nr_letters:
-  letter = random.choice(letters)
-  pw_straight.append(letter)
-  run_count += 1
+   letter = random.choice(letters)
+   pw_straight.append(letter)
+   run_count += 1
 run_count = 0
 
 while run_count != nr_numbers:
-  number = random.choice(numbers)
-  pw_straight.append(number)
-  run_count += 1
+   number = random.choice(numbers)
+   pw_straight.append(number)
+   run_count += 1
 run_count = 0
 
 while run_count != nr_symbols:
-  symbol = random.choice(symbols)
-  pw_straight.append(symbol)
-  run_count += 1
+   symbol = random.choice(symbols)
+   pw_straight.append(symbol)
+   run_count += 1
 run_count = 0
 
 print("\n")
